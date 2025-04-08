@@ -1,27 +1,11 @@
 package leetcode.leetcode75;
 
+import leetcode.data_structures.ListNode;
+
 
 public class Problem328 {
 
     public static final Solution solution = new Solution();
-
-    public static class ListNode {
-
-        private int val;
-        private ListNode next = null;
-
-        public ListNode() {
-        }
-
-        public ListNode(int val) {
-            this.val = val;
-        }
-
-        public ListNode(int val, ListNode next) {
-            this(val);
-            this.next = next;
-        }
-    }
 
     public static class Solution {
 
